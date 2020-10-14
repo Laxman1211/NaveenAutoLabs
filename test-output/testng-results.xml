@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38" started-at="2020-08-20T09:39:40Z" finished-at="2020-08-20T09:39:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="38" started-at="2020-08-20T09:39:40Z" finished-at="2020-08-20T09:39:40Z">
+      <class name="week1.TestList">
+        <test-method status="PASS" signature="bt1()[pri:0, instance:week1.TestList@396f6598]" name="bt1" is-config="true" duration-ms="10" started-at="2020-08-20T09:39:40Z" finished-at="2020-08-20T09:39:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bt1 -->
+        <test-method status="PASS" signature="bc1()[pri:0, instance:week1.TestList@396f6598]" name="bc1" is-config="true" duration-ms="1" started-at="2020-08-20T09:39:40Z" finished-at="2020-08-20T09:39:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bc1 -->
+        <test-method status="PASS" signature="b1()[pri:0, instance:week1.TestList@396f6598]" name="b1" is-config="true" duration-ms="0" started-at="2020-08-20T09:39:40Z" finished-at="2020-08-20T09:39:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b1 -->
+        <test-method status="PASS" signature="b2()[pri:0, instance:week1.TestList@396f6598]" name="b2" is-config="true" duration-ms="1" started-at="2020-08-20T09:39:40Z" finished-at="2020-08-20T09:39:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b2 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:week1.TestList@396f6598]" name="test1" duration-ms="3" started-at="2020-08-20T09:39:40Z" finished-at="2020-08-20T09:39:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="a1()[pri:0, instance:week1.TestList@396f6598]" name="a1" is-config="true" duration-ms="0" started-at="2020-08-20T09:39:40Z" finished-at="2020-08-20T09:39:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a1 -->
+        <test-method status="PASS" signature="a2()[pri:0, instance:week1.TestList@396f6598]" name="a2" is-config="true" duration-ms="0" started-at="2020-08-20T09:39:40Z" finished-at="2020-08-20T09:39:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a2 -->
+        <test-method status="PASS" signature="b2()[pri:0, instance:week1.TestList@396f6598]" name="b2" is-config="true" duration-ms="0" started-at="2020-08-20T09:39:40Z" finished-at="2020-08-20T09:39:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b2 -->
+        <test-method status="PASS" signature="b1()[pri:0, instance:week1.TestList@396f6598]" name="b1" is-config="true" duration-ms="0" started-at="2020-08-20T09:39:40Z" finished-at="2020-08-20T09:39:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:week1.TestList@396f6598]" name="test2" duration-ms="2" started-at="2020-08-20T09:39:40Z" finished-at="2020-08-20T09:39:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="a1()[pri:0, instance:week1.TestList@396f6598]" name="a1" is-config="true" duration-ms="0" started-at="2020-08-20T09:39:40Z" finished-at="2020-08-20T09:39:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a1 -->
+        <test-method status="PASS" signature="a2()[pri:0, instance:week1.TestList@396f6598]" name="a2" is-config="true" duration-ms="0" started-at="2020-08-20T09:39:40Z" finished-at="2020-08-20T09:39:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a2 -->
+        <test-method status="PASS" signature="ac1()[pri:0, instance:week1.TestList@396f6598]" name="ac1" is-config="true" duration-ms="0" started-at="2020-08-20T09:39:40Z" finished-at="2020-08-20T09:39:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ac1 -->
+        <test-method status="PASS" signature="at1()[pri:0, instance:week1.TestList@396f6598]" name="at1" is-config="true" duration-ms="1" started-at="2020-08-20T09:39:40Z" finished-at="2020-08-20T09:39:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- at1 -->
+      </class> <!-- week1.TestList -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
