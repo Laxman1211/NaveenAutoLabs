@@ -4,20 +4,20 @@ public class WrapperExample {
 
 	public static void main(String[] args) {
 
-		// String to Int conversion 		
+		// String to Int conversion 
 		String s = "900";
-		int a = Integer.parseInt(s); //parseInt
+		int a = Integer.parseInt(s);  //parseInt
 		System.out.println(a); 
 
-		// String to Double
-		String sd = "98.09";
+		// String to Double 
+		String sd = "98.09"; 
 		double d = Double.parseDouble(sd);
 		System.out.println(d);
 		
 		// String to boolean 
-		String sb = "true";
-		boolean b = Boolean.parseBoolean(sb);
-		System.out.println(b);
+		String sb = "true"; 
+		boolean b = Boolean.parseBoolean(sb); 
+		System.out.println(b); 
 		
 		// Int to String 
 		int j = 200;
