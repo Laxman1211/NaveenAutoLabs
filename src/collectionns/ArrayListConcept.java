@@ -1,5 +1,6 @@
 package collectionns;
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class ArrayListConcept {
 	public static void main(String[] args) {
@@ -49,6 +50,64 @@ public class ArrayListConcept {
 		ar2.add("QTP");
 		// ar2.add(1223); Error 
 		
+		// ArrayList<E> ar3 = new ArrayList<E>(); 
+
+		// Employee Class Object 
+		Employee e1 = new Employee("Laxman", 29, "IT");
+		Employee e2 = new Employee("Tom", 92, "QA");
+		Employee e3 = new Employee("Peter", 39, "Dev");
+		
+		// create a ArrayList
+		ArrayList<Employee> ar4 = new ArrayList<Employee>();
+		ar4.add(e1);
+		ar4.add(e2);
+		ar4.add(e3);
+		
+		// Iterator to traverse values 
+		Iterator<Employee> it = ar4.iterator(); 
+		while(it.hasNext())	{	
+		Employee ee = it.next(); 
+		System.out.println(ee.name);
+		System.out.println(ee.age);
+		System.out.println(ee.dept);
+		}
+		System.out.println(" ************** "); 
+		// addAll()
+		ArrayList<String> ar5 = new ArrayList<String>();
+		ar5.add("Test");
+		ar5.add("Selenium");
+		ar5.add("QTP");
+		
+		ArrayList<String> ar6 = new ArrayList<String>();
+		ar5.add("Dev");
+		ar5.add("QA");
+		ar5.add("Admin");
+		
+		ar5.addAll(ar6);
+		for(int i=0; i<ar5.size(); i++) {
+		System.out.println(ar5.get(i));	
+		}
+		
+		System.out.println(" ************** "); 
+		// removeAll()
+		ar5.removeAll(ar6);
+		for(int i=0; i<ar5.size(); i++) {
+			System.out.println(ar5.get(i));
+		} 
+		// retainAll
+		ArrayList<String> ar7 = new ArrayList<String>();
+		ar5.add("Test");
+		ar5.add("Selenium");
+		ar5.add("QTP");
+		
+		ArrayList<String> ar8 = new ArrayList<String>();
+		ar5.add("Test");
+		ar5.add("QA");	
+		
+		ar7.retainAll(ar8);
+		for(int i=0; i<ar7.size(); i++) {
+			System.out.println(ar7.get(i));
+		} 
 		
 	} 
 } 
