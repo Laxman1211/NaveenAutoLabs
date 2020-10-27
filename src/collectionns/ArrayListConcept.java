@@ -53,9 +53,9 @@ public class ArrayListConcept {
 		// ArrayList<E> ar3 = new ArrayList<E>(); 
 
 		// Employee Class Object 
-		Employee e1 = new Employee("Laxman", 29, "IT");
-		Employee e2 = new Employee("Tom", 92, "QA");
-		Employee e3 = new Employee("Peter", 39, "Dev");
+		Employee e1 = new Employee("Laxman", 29, "IT"); 
+		Employee e2 = new Employee("Tom", 92, "QA"); 
+		Employee e3 = new Employee("Peter", 39, "Dev"); 
 		
 		// create a ArrayList
 		ArrayList<Employee> ar4 = new ArrayList<Employee>();
@@ -79,9 +79,9 @@ public class ArrayListConcept {
 		ar5.add("QTP");
 		
 		ArrayList<String> ar6 = new ArrayList<String>();
-		ar5.add("Dev");
-		ar5.add("QA");
-		ar5.add("Admin");
+		ar6.add("Dev");
+		ar6.add("QA");
+		ar6.add("Admin");
 		
 		ar5.addAll(ar6);
 		for(int i=0; i<ar5.size(); i++) {
@@ -94,7 +94,7 @@ public class ArrayListConcept {
 		for(int i=0; i<ar5.size(); i++) {
 			System.out.println(ar5.get(i));
 		} 
-		// retainAll
+		// retainAll()
 		ArrayList<String> ar7 = new ArrayList<String>();
 		ar5.add("Test");
 		ar5.add("Selenium");
@@ -108,6 +108,5 @@ public class ArrayListConcept {
 		for(int i=0; i<ar7.size(); i++) {
 			System.out.println(ar7.get(i));
 		} 
-		
 	} 
 } 
