@@ -11,5 +11,6 @@ public class FinalizeConcept {
 		f1 = null;
 		f2 = null;
 		System.gc();
+		System.out.println(f2);
 	}
 }

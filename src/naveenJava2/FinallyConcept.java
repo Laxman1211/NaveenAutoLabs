@@ -1,11 +1,8 @@
 package naveenJava2;
-
 public class FinallyConcept {
-
 	public static void main(String[] args) {
 		test2();
 	}
-	
 	public static void test1() {
 		try {
 			System.out.println("Inside test1() method.. ");
