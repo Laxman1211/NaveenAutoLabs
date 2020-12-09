@@ -1,7 +1,5 @@
 package naveenJava1;
-
 public class ArrayConcept {
-
 	public static void main(String[] args) {
 		
 		int a[]=new int[4];
@@ -13,8 +11,7 @@ public class ArrayConcept {
 		for(int i = 0; i<a.length; i++)
 		{
 			System.out.println("Array value of "+i+"... "+a[i]);
-		}
-		
+		}		
 		// Object Array
 		Object ob[] = new Object[4];
 		ob[0] = 12;
